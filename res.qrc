@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/eraser.png</file>
+        <file>res/pointer.png</file>
+        <file>res/pot.png</file>
+        <file>res/route.png</file>
+        <file>res/edit.png</file>
+        <file>res/save.png</file>
+        <file>res/export.png</file>
+        <file>res/flush.png</file>
+        <file>res/backtee.jpg</file>
+        <file>res/admin.png</file>
+        <file>res/UI.png</file>
+        <file>res/delete.png</file>
+        <file>res/Calibration.png</file>
+        <file>res/cancelnav.png</file>
+        <file>res/continuenav.png</file>
+        <file>res/getcontrol.png</file>
+        <file>res/load.png</file>
+        <file>res/relasecontrol.png</file>
+        <file>res/stopnav.png</file>
+        <file>res/down.png</file>
+        <file>res/left.png</file>
+        <file>res/right.png</file>
+        <file>res/up.png</file>
+        <file>res/turn.png</file>
+        <file>res/close.png</file>
+        <file>res/full.png</file>
+        <file>res/set.png</file>
+        <file>res/AMR.png</file>
+        <file>res/AMR2.png</file>
+        <file>res/mapmove.png</file>
+        <file>res/shutdown.png</file>
+    </qresource>
+</RCC>
