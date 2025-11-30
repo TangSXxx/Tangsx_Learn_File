@@ -12,6 +12,8 @@ master分支的主要功能一个功能丰富的多机器人路径规划与模�
 
 <img width="1602" height="934" alt="image" src="https://github.com/user-attachments/assets/c380b705-d14e-45b6-ab03-11c673388d8f" />
 
-其他控件设计 - QTableWidget - 表格
-为了实现一个灵活的表格功能，我基于QTableWidget设计了一款表格控件，能够支持自定义表格内的控件，灵活实现各种满足各种类型的功能开发需要。
+其他控件设计 
+1、QTableWidget - 表格
+为了实现一个灵活的表格功能，我基于QTableWidget设计了一款表格控件，能够支持自定义表格内的控件，灵活满足各种类型的功能开发需要。 - 代码未上传的，需要的联系我本人
+
 <img width="349" height="219" alt="image" src="https://github.com/user-attachments/assets/2379ec98-2d0c-4acb-93d5-f5a5155138b2" />
