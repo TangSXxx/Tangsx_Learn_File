@@ -1,5 +1,4 @@
-#include "mainwindow.h"
-#include "src/loginpage.h"
+#include "WidgetControl/loginpage.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])

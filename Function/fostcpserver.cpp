@@ -1,5 +1,6 @@
+
 #include "fostcpserver.h"
-#include "minfoswindow.h"
+#include "WidgetControl/minfoswindow.h"
 #include "foshelper.h"
 #include <QDebug>
 // 初始化静态成员

@@ -11,4 +11,5 @@ using namespace std;
 bool LOGWRITE(const string& content);
 
 
+
 #endif // FOSHELPER_H

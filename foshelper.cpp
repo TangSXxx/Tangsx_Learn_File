@@ -1,7 +1,7 @@
 #include "foshelper.h"
 #include <QFile>
 #include <iostream>
-#include "minfoswindow.h"
+#include "WidgetControl/minfoswindow.h"
 #include <QDebug>
 //日志函数
 bool LOGWRITE(const string& content){

@@ -16,21 +16,27 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    WidgetControl/tabwidgetcon.cpp \
+    buttonevent.cpp \
     main.cpp \
-    minfoswindow.cpp \
-    src/foshelper.cpp \
-    src/fostcpserver.cpp \
-    src/loginpage.cpp
+    WidgetControl/minfoswindow.cpp \
+    foshelper.cpp \
+    Function/fostcpserver.cpp \
+    Function/http_server.cpp \
+    WidgetControl//loginpage.cpp
 
 HEADERS += \
-    minfoswindow.h \
-    src/foshelper.h \
-    src/fostcpserver.h \
-    src/loginpage.h
+    WidgetControl/minfoswindow.h \
+    WidgetControl/tabwidgetcon.h \
+    buttonevent.h \
+    foshelper.h \
+    Function/fostcpserver.h \
+    Function/http_server.h \
+    WidgetControl/loginpage.h
 
 FORMS += \
-    minfoswindow.ui \
-    src/loginpage.ui
+    WidgetControl/minfoswindow.ui \
+    WidgetControl/loginpage.ui
 
 LIBS += -lws2_32
 
@@ -39,4 +45,5 @@ qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
-RESOURCES +=
+RESOURCES += \
+    res/res.qrc

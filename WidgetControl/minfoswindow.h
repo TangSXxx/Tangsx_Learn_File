@@ -3,8 +3,11 @@
 
 #include <QMainWindow>
 #include <QListWidget>
-#include "src/fostcpserver.h"
+#include "Function/fostcpserver.h"
 #include <string>
+#include "WidgetControl/tabwidgetcon.h"
+#include <vector>
+
 using namespace std;
 namespace Ui {
 class MinFOSWindow;
@@ -32,7 +35,11 @@ private slots:
 
 private:
     explicit MinFOSWindow(QWidget *parent = nullptr);
+
     Ui::MinFOSWindow *ui;
+
+    std::unordered_map<int,bool> tabMap;
+
 };
 
 #endif // MINFOSWINDOW_H
