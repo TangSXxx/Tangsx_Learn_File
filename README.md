@@ -1,7 +1,7 @@
 前端界面：
 
 登陆界面
-![alt text](image.png)
+![alt text](./docs/image.png)
 主界面
 ![alt text](image-1.png)
 表格控件
